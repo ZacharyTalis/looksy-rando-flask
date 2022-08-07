@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from flask import Flask, request, send_file
+from flask import Flask, request, send_file, serve
 
 import utils.fg
 import utils.rando
@@ -38,4 +38,5 @@ def main():
 def wellKnown():
     return send_file("static/gpc.json", mimetype="application/json")
 
-
+if __name__ == "__main__":
+    serve(app)
