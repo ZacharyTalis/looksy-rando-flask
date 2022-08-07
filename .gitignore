@@ -1,2 +1,4 @@
 *__pycache__*
-static/foreground.png
+*.egg-info*
+rando/static/foreground.png
+venv

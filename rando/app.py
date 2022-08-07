@@ -37,3 +37,5 @@ def main():
 @app.route("/.well-known/gpc.json")
 def wellKnown():
     return send_file("static/gpc.json", mimetype="application/json")
+
+
