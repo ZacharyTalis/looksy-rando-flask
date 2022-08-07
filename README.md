@@ -1,6 +1,6 @@
 # looksy-flask-rando
 
-A Flask app that generates random panels for [Looksy](https://prodzpod.github.io/witness/editor.html) as foreground images.
+A Flask app that generates random stone panels for [Looksy](https://prodzpod.github.io/witness/editor.html) as foreground images.
 
 Contains a local copy of [looksy-foreground-gen](https://github.com/ZacharyTalis/looksy-foreground-gen/).
 
