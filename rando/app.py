@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from flask import Flask, request, send_file, serve
+from flask import Flask, request, send_file
+from waitress import serve
 
 import utils.fg
 import utils.rando

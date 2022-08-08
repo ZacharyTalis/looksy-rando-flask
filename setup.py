@@ -8,4 +8,4 @@ setup(name="looksy-rando-flask",
     packages=["rando"],
     include_package_data=True,
     zip_safe=False,
-    install_requires=["Flask", "Pillow"])
+    install_requires=["Flask", "Pillow", "Waitress"])
